@@ -1,4 +1,3 @@
-
 using BCG_backend_watch_marketplace.Models;
 
 namespace BCG_backend_watch_marketplace.Services
