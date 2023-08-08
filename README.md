@@ -11,7 +11,7 @@ This is a simplified e-commerce API with a single endpoint that performs a check
 - [Response Format](#response-format)
 - [Setup and Run](#setup-and-run)
 - [Testing](#testing)
-- [Assumptions and Improvements](#assumptions)
+- [Assumptions and Improvements](#assumptions-and-improvements)
 
 
 ## Requirements
@@ -83,6 +83,12 @@ To run the tests:
 
 1. Open your terminal/command prompt.
 2. Navigate to the project root directory.
-3. Run the tests using the command: `dotnet test`
+3. Run the tests using the command: `dotnet test`.
+
+## Assumptions and Improvements
+
+1. Validation and Error Handling: Currently, the API returns `BadRequest()` or `status code: 400` when it gets invalid input. This can be improved to provide detailed error messages like 'Requested Watch does not Exist' or 'Input list cannot be empty' and so on.
+2. Data Storage: Currently the watch catalogue has been hard-coded in the Service. We can instead use a database to store this catalogue and use ORMs like EFCore to manage the data.
+3. Security: We can add features like authentication and authorization in order to protect endpoints and data from unauthorized use.
 
 
