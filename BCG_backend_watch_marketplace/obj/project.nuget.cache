@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VloHpwXBBKI11I9GLhIL5pefF+vyJzj4/3sAuvhvMGe564CBEy8kzmJEm8FFE7CPSi8sY8+Z3POBQfGJTvIR+A==",
+  "success": true,
+  "projectFilePath": "/Users/roydon/WebDev/dotnet/BCG_backend_watch_marketplace/BCG_backend_watch_marketplace/BCG_backend_watch_marketplace.csproj",
+  "expectedPackageFiles": [
+    "/Users/roydon/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/roydon/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/roydon/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/roydon/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/roydon/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/roydon/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
