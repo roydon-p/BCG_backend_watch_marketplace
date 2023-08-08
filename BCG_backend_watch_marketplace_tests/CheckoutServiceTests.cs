@@ -24,9 +24,9 @@ namespace BCG_backend_watch_marketplace_tests
         [Test]
         public void CalculatePrice_NoDiscountApplicable()
         {
-            var watchIdList = new List<string> { "001", "001", "002" }; 
+            var watchIdList = new List<string> { "001", "002", "001", "004", "003" }; 
             decimal total_price = _checkoutService.CalculatePrice(watchIdList);
-            Assert.AreEqual(280, total_price); 
+            Assert.AreEqual(360, total_price); 
         }
 
         [Test]
