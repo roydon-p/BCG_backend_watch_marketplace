@@ -21,7 +21,7 @@ namespace BCG_backend_watch_marketplace.Services
         // watch catalogue exposed in order to be used in controller
         public IReadOnlyList<Watch> WatchCatalogue_RO => watchCatalogue;
 
-        public decimal CalculatePrice(List<string> watchIdList) 
+        public virtual decimal CalculatePrice(List<string> watchIdList) //virtual added in order to mock the service in tests
         {
             decimal total_price = 0;
             // run the loop over distinct id's from the input list of id's
