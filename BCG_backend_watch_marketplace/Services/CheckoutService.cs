@@ -19,6 +19,9 @@ namespace BCG_backend_watch_marketplace.Services
             };
         }
 
+        // watch catalogue exposed in order to be used in controller
+        public IReadOnlyList<Watch> WatchCatalogue_RO => watchCatalogue;
+
         public decimal CalculatePrice(List<string> watchIdList) 
         {
             decimal total_price = 0;

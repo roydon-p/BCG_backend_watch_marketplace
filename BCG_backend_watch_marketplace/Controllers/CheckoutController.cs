@@ -17,6 +17,12 @@ namespace BCG_backend_watch_marketplace
         [HttpPost]
         public IActionResult CalculatePrice([FromBody] List<string> watchIdList)
         {
+            // return bad request when the input list is null or contains an id not part of the catalogue
+            if (watchIdList == null || watchIdList.Count == 0 || !watchIdList.All(id => _checkoutService.WatchCatalogue_RO.Any(w => w.WatchId == id)))
+            {
+                return BadRequest();
+            }
+
             decimal resPrice = _checkoutService.CalculatePrice(watchIdList);
             var response = new
             {
