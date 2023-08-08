@@ -58,7 +58,5 @@ namespace BCG_backend_watch_marketplace_tests
             Assert.NotNull(result);
             Assert.AreEqual(400, result.StatusCode); 
         }
-
-        
     }
 }
